@@ -210,6 +210,9 @@
 
 
 
+
+
+
 //TASK 10 
 
 // let x = prompt("Ədəd daxil et!")
@@ -231,7 +234,37 @@
 // document.write(testing(x))
 
 
+
+
+
+
+
+
+
+
+
 //TASK 11
+
+// let x = +prompt("Ədəd daxil et!")
+// let i = 1;
+// let res = 0;
+// const checker = (parametrə) =>{
+//     while(i < parametrə){
+//         if (parametrə % i === 0)
+//         {
+//         res +=i;
+//         }
+//         i++;
+//     }
+//     return Boolean(res == parametrə)
+// }
+
+// document.write(checker(x))
+
+
+
+
+
 
 
 
@@ -325,7 +358,45 @@
 
 
 
-//TASK 13 SÜNİ İNTELLEKTİN ÇOX QISA VƏ MARAQLI ÜSULU
+
+
+
+
+//TASK 13 QISA VERSİYASI (SONRA BU AĞLIMA GƏLDİ)
+// let eded1 = +prompt("Ədəd 1-i daxil et")
+// let eded2 = +prompt("Ədəd 2-ni daxil et")
+// let res = 0;
+// let i = 0;
+
+// if (eded1>=eded2) {i = eded2;}
+// else {i = eded1;}
+// const ebobtapan = (deyisen1, deyisen2) =>{
+//     while(i>0){
+//         if(deyisen1 % i == 0 && deyisen2 % i == 0){
+//             res = i;
+//             break;
+//         }
+//         i--;
+//     }
+//     return res;
+// }
+// document.write(ebobtapan(eded1,eded2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//TASK 13 SÜNİ İNTELLEKTİN ÇOX MARAQLI ÜSULU
 // function calculateGCD(a, b) {
 //     while (b !== 0) {
 //         const temp = b;
@@ -444,5 +515,4 @@
 // document.write(reqemCemitapan(eded))
 
 
-// TASK 20 - BİRCƏ ƏBOBUN TAPILMASINI (TASK 13) QISA YAZA BİLMƏDİM, SÜNİ İNTELLEKT DƏ Kİ NORMAL RİYAZİ YOLLA YAZMIYIB.
-// ONA GÖRƏ MƏN HƏLƏ DƏ BİLMİRƏM ONU QISA YAZMAQ MÜMKÜNDÜRMÜ NORMAL RİYAZİ YOLLA...
+// TASK 20 - BAŞ ÜSTƏ
