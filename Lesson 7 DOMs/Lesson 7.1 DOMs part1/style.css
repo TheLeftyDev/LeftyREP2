@@ -1,0 +1,27 @@
+/*TASK 3
+
+
+
+
+
+
+
+*/
+
+
+.circlesContainer{
+    height: 100px;
+    width: 1000px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
