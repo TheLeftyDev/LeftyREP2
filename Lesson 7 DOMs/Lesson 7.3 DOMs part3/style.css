@@ -1,0 +1,14 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+}
+
+#QandAareaID{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
