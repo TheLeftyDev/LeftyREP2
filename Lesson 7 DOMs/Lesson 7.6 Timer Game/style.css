@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.colors{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: black solid 5px;
+    
+}
