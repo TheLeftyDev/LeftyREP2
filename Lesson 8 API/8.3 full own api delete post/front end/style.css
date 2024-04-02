@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.space{
+    background-color: wheat;
+    width: 85vw;
+    display: grid;
+    margin: 0 auto;
+    padding: 2vw;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1vw;
+}
+
+.card{
+    /* height: 18vw; */
+    background-color: white ;
+    padding: 1vw;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.card img {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left: 8%;
+}
+
+.card:hover{
+cursor: pointer;
+scale: 1.2;
+transition-duration: 0.5s;
+}
+
+.inputs{
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    gap: 1vw;
+}
+
+.inputs input{
+    height: 3vw;
+    font-size: large;
+}
+
+.inputs button{
+    width: 4vw;
+    height: 3vw;
+    font-size: large;
+}

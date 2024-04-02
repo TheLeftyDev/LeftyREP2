@@ -1,0 +1,49 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "marka": "Samsung Galaxy",
+            "ad": "S24 Ultra",
+            "qiymet": 1299,
+            "endirim": 5,
+            "rating": 5,
+            "link": "https://helios-i.mashable.com/imagery/articles/05dlTp4hFqQv1HZE19rSRE2/hero-image.fill.size_1248x702.v1695053686.jpg"
+        },
+        {
+            "id": 2,
+            "marka": "Oneplus",
+            "ad": "12",
+            "qiymet": 899,
+            "endirim": 10,
+            "rating": 5,
+            "link":"https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/o/n/oneplus-12-color_1.jpg"
+        },
+        {
+            "id": 3,
+            "marka": "Google Pixel",
+            "ad": "8 Pro",
+            "qiymet": 999,
+            "endirim": 20,
+            "rating": 4,
+            "link": "https://m.media-amazon.com/images/I/71h9zq4viSL._AC_SX679_.jpg"
+        },
+        {
+            "id": 4,
+            "marka": "Xiaomi",
+            "ad": "14 Ultra",
+            "qiymet": 1399,
+            "endirim": 25,
+            "rating": 3,
+            "link": "https://i02.appmifile.com/mi-com-product/fly-birds/new-xiaomi-14-ultra/PC/76f54ee7cfbdca22e420047013bc9d7b.png?f=webp"
+        },
+        {
+            "id": 5,
+            "marka": "Nokia",
+            "ad": "3310",
+            "qiymet": 50,
+            "endirim": 2,
+            "rating": 5,
+            "link": "https://assets.newatlas.com/dims4/default/b21a3a4/2147483647/strip/true/crop/1520x1013+140+0/resize/840x560!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fnokia-3310-inspired-smartphone-6.jpg"
+        }
+    ]
+}

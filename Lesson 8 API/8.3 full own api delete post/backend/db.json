@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "marka": "Samsung Galaxy",
+      "ad": "S24 Ultra",
+      "qiymet": 1299,
+      "endirim": 5,
+      "rating": 5,
+      "link": "https://helios-i.mashable.com/imagery/articles/05dlTp4hFqQv1HZE19rSRE2/hero-image.fill.size_1248x702.v1695053686.jpg"
+    },
+    {
+      "id": "2",
+      "marka": "Oneplus",
+      "ad": "12",
+      "qiymet": 899,
+      "endirim": 10,
+      "rating": 5,
+      "link": "https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/o/n/oneplus-12-color_1.jpg"
+    },
+    {
+      "id": "4",
+      "marka": "Xiaomi",
+      "ad": "14 Ultra",
+      "qiymet": 1399,
+      "endirim": 25,
+      "rating": 3,
+      "link": "https://i02.appmifile.com/mi-com-product/fly-birds/new-xiaomi-14-ultra/PC/76f54ee7cfbdca22e420047013bc9d7b.png?f=webp"
+    },
+    {
+      "id": "e84e",
+      "marka": "msfgdm",
+      "ad": "amdfs",
+      "qiymet": "333",
+      "endirim": "66",
+      "rating": "5",
+      "link": "mnasms"
+    }
+  ]
+}
