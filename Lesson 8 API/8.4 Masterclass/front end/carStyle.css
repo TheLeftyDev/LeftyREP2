@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #212121;
+}
+
+nav{
+    display: flex;
+    gap: 50px;   
+}
+.addCarPopup{
+    padding: 3% 0;
+    position: absolute;
+    top: 10vh;
+    left: 30%;
+    width: 40%;
+    height: 60%;
+    background-color: wheat;
+    border: solid black 2px;
+    box-shadow: 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button, input{
+    width: 80%;
+    height: 12%;
+    font-size: 24px;
+}
+
+.pop{
+    display: none;
+}
+
+.cardSpace{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3%;
+    gap: 3%;
+}
+
+.card{
+    background-color: aqua;
+    padding-bottom: 10%;
+}
+
+.card h2,h3{
+    padding-left: 4%;
+
+}
+
+.card img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
