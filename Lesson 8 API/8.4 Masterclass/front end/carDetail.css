@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{width: 60vw;
+height: 60vh;
+border-radius: 2%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    background-color: wheat;
+
+}
+.card h2,h3{
+    padding: 0.2vw;
+    margin: 0.2vw;
+}

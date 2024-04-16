@@ -16,27 +16,28 @@ else{
 let newObj = {}
 
 let iflogged = localStorage.getItem('iflogged');
-console.log(iflogged);
+// console.log(iflogged);
 if(iflogged == 0 || iflogged == null){
     logOut.style.display = 'none';
     myCars.style.display = 'none';
-    console.log(iflogged);
+    // console.log(iflogged);
 
 }
 else{
     regOpen.style.display = 'none';
     logOpen.style.display = 'none';
-    console.log(iflogged);
+    // console.log(iflogged);
 }
 
 const cardSpaceJS = document.querySelector('.cardSpace')
 let dataJS = axios(url+`products/`)
-console.log(dataJS);
+// console.log(dataJS);
 dataJS.then(({data})=>{
-    console.log(data);
+    // console.log(data);
     data.forEach(element => {
         // console.log(element.id);
         cardSpaceJS.innerHTML += `        <div class="card">
+        <a href="./carDetail.html?id=${element.id}"</a>
         <img src="${element.link}" alt="car">
         <h2>${element.price} manat</h2>
         <h3>${element.marka} ${element.model} Model</h3>
@@ -46,10 +47,10 @@ dataJS.then(({data})=>{
     });
 })
 
-setInterval(() => {
-    console.log(currentUsername)
-    console.log(localStorage.getItem('currentUser'));
-}, 1000);
+// setInterval(() => {
+//     console.log(currentUsername)
+//     console.log(localStorage.getItem('currentUser'));
+// }, 1000);
 let userJS = axios(url+`users/`)
 userJS.then(({data})=>{
 
@@ -92,10 +93,10 @@ userJS.then(({data})=>{
             password: reg2.value.trim()
             }
             axios.post(url+`users/`,newObj)
-            console.log(data);
+            // console.log(data);
             location.reload()
             }
-            console.log(reg1.value.trim());
+            // console.log(reg1.value.trim());
             
     })
 })
