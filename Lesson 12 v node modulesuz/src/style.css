@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cards{
+    background-color: #212121;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1vw;
+    /* padding: 20px; */
+    
+    
+}
+.card{
+    background-color: aqua;
+    width: 20vw;
+    height: 20vw;
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    background-color: green;
+    color: blue;
+}
+
+.link{
+    color: black;
+}
