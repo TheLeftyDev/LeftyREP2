@@ -1,0 +1,83 @@
+{"restaurants": [
+    {
+        "id":"1",
+        "ad": "Uc-dort doner",
+        "address": "Cavanliq Metrosu",
+        "rating": "4.5",
+        "imgSrc": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7160ee45233445.582a11c5f0f0b.jpg",
+        "Menu":[{
+            "id":"15",
+            "adname": "Halal donuz etinnen doner",
+            "qiymet": "5",
+            "imgSrcfood": "https://www.recipetineats.com/wp-content/uploads/2020/07/Beef-or-Lamb-Doner-Kebab_9.jpg"      
+        },
+        {
+            "id":"55",
+            "adname": "Halal at etinnen donmez",
+            "qiymet": "4",
+            "imgSrcfood": "https://media.istockphoto.com/id/181605195/photo/doner-kebab.jpg?s=612x612&w=0&k=20&c=apaPRTO1PpMRWWzoGqwdCGJg3uKhibJDbX8cP40MOTg="      
+        }]
+    },
+    {
+        "id":"2",
+        "ad": "Don Mcalds",
+        "address": "38 May",
+        "rating": "4.6",
+        "imgSrc": "https://pbs.twimg.com/profile_images/1760857937726324736/39Z548Q1_400x400.jpg",
+        "Menu":[
+            {
+                "id":"36",
+            "adname": "Gurber",
+            "qiymet": "6.30",
+            "imgSrcfood": "https://i.pinimg.com/736x/0d/28/ef/0d28ef66517107d38c334c3a047dd405.jpg"      
+            }
+        ]
+
+    },
+    {
+        "id":"3",
+        "ad": "Burger Queen",
+        "address": "Cehennemin dibi",
+        "rating": "1.2",
+        "imgSrc": "https://play-lh.googleusercontent.com/8Pe29HGZOFiZnIauKN8igzzAAWwKlYDBXbS3tgZuc_MD1mYO99bkMG_xJajZt4seEg=w240-h480-rw",
+        "Menu":[
+            {
+            "id":"180",
+            "adname": "Sican etinnen burger",
+            "qiymet": "8",
+            "imgSrcfood": "https://www.nogarlicnoonions.com/wp-content/uploads/2013/11/Brasserie_Burger_Publicis59.jpg"      
+        }
+    ]
+    },
+    {
+        "id":"4",
+        "ad": "CFK",
+        "address": "Oralarda biryerde",
+        "rating": "2.5",
+        "imgSrc": "https://cfkhouse.com/cdn/shop/files/Sin_titulo_5-1-removebg-preview_1.png?v=1690568194&width=500",
+        "Menu":[
+            {
+            "id":"10",
+            "adname": "Pendir Burgur",
+            "qiymet": "3",
+            "imgSrcfood": "https://static.independent.co.uk/2023/07/14/05/Screenshot%202023-07-14%20at%2010.23.27%20AM.png?width=1200&height=1200&fit=crop"      
+        }
+    ]
+    },
+    {
+        "id":"5",
+        "ad": "Mama Johns",
+        "address": "Oralarda biryerde",
+        "rating": "5",
+        "imgSrc": "https://scontent.fgyd12-1.fna.fbcdn.net/v/t1.6435-9/162619138_3835483089891938_6200842942852137453_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=aCVTKRpq8vEQ7kNvgGr9lfB&_nc_ht=scontent.fgyd12-1.fna&oh=00_AfBrank9NWPKWYsnbH0qI4SEKz0VzTi38mBN6v0ZViqdCQ&oe=66606EB8",
+        "Menu":[
+            {
+            "id":"10",
+            "adname": "Ad gunu Pizzasi",
+            "qiymet": "18",
+            "imgSrcfood": "https://t4.ftcdn.net/jpg/02/73/68/35/360_F_273683504_zcNCdiEM6NwohSAAfIktRIFXSHvS1Fgq.jpg"      
+        }
+    ]
+    }
+]
+}
