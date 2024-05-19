@@ -1,0 +1,498 @@
+@font-face {
+    font-family: 'myPoppins';
+    src: url('./Poppins-Regular.ttf') format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'myPoppins';
+}
+
+.container {
+    position: relative;
+    width: 80vw;
+    left: 10vw;
+}
+
+.containerfather {
+    background-color: #1C1E53;
+}
+
+.containerfatherwhite {
+    background-color: white;
+}
+
+.containerfathergrey {
+    background-color: #F4F6FC;
+
+}
+
+
+/* NAVBAR SECTION /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar .left3{
+padding-top: 0.5vw;
+}
+.navbar .right3 {
+    background-color: #1C1E53;
+    display: flex;
+    padding-left: 48%;
+    height: 92px;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .right3 .link {
+    color: #BBBBCB
+}
+
+.navbar .right3 .link.active {
+    color: white;
+}
+/* FOOT SECTION /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.foot{
+    display: flex;
+    background-color: #fff;
+    padding-left: 5%;
+    align-items: center;
+    color: #282938;
+
+
+}
+.foot .right {
+    display: flex;
+    padding-left: 42%;
+    height: 92px;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.foot .right .link {
+    color: #282938
+}
+
+
+/* STELLAR WEBSITE PART //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.stellarWebsiteDiv {
+    display: flex;
+    height: 40vw;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.stellarWebsiteDiv .right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.stellarWebsiteDiv .left {
+    color: white;
+    width: 40%;
+}
+
+.stellarWebsiteDiv .left h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.stellarWebsiteDiv .left p {
+    color: white;
+    font-size: 15px;
+    opacity: 70%;
+    margin-top: 2vw;
+}
+
+.stellarWebsiteDiv .left .leftbottom {
+    margin-top: 2vw;
+}
+
+.stellarWebsiteDiv .left .leftbottom .link {
+    margin: 2vw;
+    color: white;
+}
+
+.stellarWebsiteDiv .left .leftbottom button {
+    background-color: #FCD980;
+    padding: 1vw 2vw;
+    border-radius: 5vw;
+    color: #1B1C2B;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* OUR PRICING COMPONENT ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.OurPricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.OurPricing h1 {
+    font-weight: bolder;
+}
+
+.OurPricing p {
+    width: 45%;
+}
+
+/* PRICES   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Prices {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+
+}
+
+.Prices .thePriceLeft {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 15px;
+    padding: 3vw;
+}
+
+.Prices .thePriceLeft {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 15px;
+    padding: 3vw;
+}
+
+
+.Prices .thePriceLeft .priceTop {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
+
+.Prices .thePriceLeft .priceMid {
+    margin-top: 2vw;
+
+}
+
+.Prices .thePriceLeft .priceMid h4 {
+    margin-top: 1vw;
+    font-weight: 100;
+
+}
+
+.Prices .thePriceLeft .priceBottom {
+    margin-top: 4vw;
+
+}
+
+.Prices .thePriceLeft .priceBottom h3 {
+    margin-top: 1.5vw;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.Prices .thePriceLeft .priceLastPart {
+    display: flex;
+    justify-content: center;
+}
+
+.Prices .thePriceLeft .priceLastPart button {
+    width: 16vw;
+    margin-top: 4vw;
+    padding: 1vw 2vw;
+    border-radius: 5vw;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* FAQ   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.FrequentlyAsked {
+    display: flex;
+    justify-content: center;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+
+}
+
+.FrequentlyAsked .left {
+    width: 28vw;
+    padding: 3vw;
+    font-size: 1.3vw;
+}
+
+.FrequentlyAsked .right {
+    width: 60vw;
+
+}
+.FrequentlyAsked .right h1{
+    cursor: pointer;
+    font-size: 28px;
+    width: 50vw;
+
+}
+
+.FrequentlyAsked .right .off{
+    transition: 0.3s ease-in-out;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.FrequentlyAsked .right .on{
+    transition: 0.3s ease-in-out;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+
+.question {
+    user-select: none;
+}
+.question .left2{
+    display: flex;
+    margin-bottom: 1vw;
+}
+.question .left2 h2{
+    cursor: pointer;
+    font-size: 28px;
+    width: 5vw;
+    color: #2405F2;
+}
+.question .left2 h3{
+    cursor: pointer;
+    font-size: 28px;
+
+}
+.question .right2 .pdiv p{
+    padding-left: 5vw;
+    padding-right: 10vw;
+    padding-bottom: 2vw;
+    font-size: 18px;
+}
+/* HOW WE WORK   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.HowWeWork {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+
+}
+
+.HowWeWork .left {
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.HowWeWork .left .link {
+    font-weight: bold;
+    color: #2405F2;
+}
+
+.HowWeWork .right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.HowWeWork .right img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.HowWeWork .right .card {
+    padding: 20px;
+    width: 328px;
+    height: 178px;
+
+
+}
+
+
+/* OUR WORK PORTFOLIO ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.OurWorkPortfolio {
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.OurWorkPortfolio h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 2vw;
+}
+
+.OurWorkPortfolio p {
+    color: #282938;
+    width: 47vw;
+    text-align: center;
+}
+.OurWorkPortfolio .logos {
+    margin-top: 2vw;
+    display: flex;
+    gap: 25px;
+}
+.OurWorkPortfolio .logos img{
+    width: 16px;
+    height: 16px;
+}
+
+/* WORK /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Footer{
+    padding-top: 5vw;
+    color: white;
+    display: flex;
+    justify-content: space-around
+}
+.Footer .left{
+    width: 30vw;
+
+}
+
+.Footer .left .emailandnumber{
+    margin-top: 6vw;
+    background-color: #FCD980;
+    color: #282938;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1vw;
+    padding-left: 3vw;
+    width: 30vw;
+
+}
+
+.Footer .left img{
+    margin-bottom: 1.2vw;
+    width: 150px;
+}
+
+.Footer .right{
+    width: 30vw;
+
+}
+.Footer .right h1{
+    margin-bottom: 1.5vw;
+    display: flex;
+    gap: 1.6vw;
+}
+
+.Footer .right .logos{
+    margin-top: 1.5vw;
+    display: flex;
+    gap: 1.6vw;
+}
+.Footer .right img{
+    filter:contrast(400%) invert(100%);
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+
+}
+
+/* Benefits of Working with US////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.BenefitsMain .topcards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BenefitsMain .topcardstitle{
+    padding: 5vw;
+    font-size: 24px;
+    width: 50vw;
+    text-align: center;
+
+}
+.BenefitsMain .topcardscontent{
+    display: flex;
+    gap: 3vw;
+}
+.BenefitsMain .topcardscontent .topcard{
+    padding: 2.5vw;
+    font-size: 14px;
+    background-color: #F4F4FC;
+}
+.BenefitsMain .topcardscontent .topcard img{
+    height: 2vw;
+    margin-bottom: 1vw;
+}
+
+.BenefitsMain .topcardscontent .topcard p{
+    margin-top: 2vw;
+    font-size: 15px;
+
+}
+
+/* Mid Section (odds) ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.BenefitsMain .midcards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BenefitsMain .midcardscontent .midcardodds{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8vw 0vw;
+}
+.BenefitsMain .midcardscontent .midcardodds .left{
+    padding-right: 7vw;
+}
+.BenefitsMain .midcardscontent .midcardodds h2{
+    font-size: 15px;
+}
+.BenefitsMain .midcardscontent .midcardodds p{
+    font-size: 17px;
+}
+.BenefitsMain .midcardscontent .midcardodds h1{
+    font-weight: bolder;
+    font-size: 42px;
+    color: #232536;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.BenefitsMain .midcardscontent .midcardodds img{
+    height: 22vw;
+}
+
+/* Mid Section (evens) ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.BenefitsMain .midcardscontent .midcardevens{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8vw 0vw;
+}
+.BenefitsMain .midcardscontent .midcardevens .left{
+    padding-right: 7vw;
+}
+.BenefitsMain .midcardscontent .midcarevens h2{
+    font-size: 15px;
+}
+.BenefitsMain .midcardscontent .midcardevens p{
+    font-size: 17px;
+}
+.BenefitsMain .midcardscontent .midcardevens h1{
+    font-weight: bolder;
+    font-size: 42px;
+    color: #232536;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.BenefitsMain .midcardscontent .midcardevens img{
+    height: 22vw;
+}
